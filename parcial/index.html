@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcontroladores</title>
+    
+    </style>
+    <link rel="stylesheet" href="styles.css">-
+</head>
+<body>
+    
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+    <h1>Página de Microcontroladores</h1>
+    <h2>pagina de Microcontroladores</h2>
+    
+    <center>
+        
+        <img src="microcontroladores.jpg"width="500"height="500">
+    </center>
+
+    <hr>
+    <marquee><h2>Microcontroladores</h2></marquee>
+    <p>Un microcontrolador (abreviado µC, UC o mCU) es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales que cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.</p>
+    <p>Algunos microcontroladores pueden utilizar palabras de cuatro bits y funcionan a velocidad de reloj con frecuencias tan bajas como 4 kHz, con un consumo de baja potencia (mW o microwatts). Por lo general, tendrá la capacidad de mantenerse a la espera de un evento como pulsar un botón o de otra interrupción; así, el consumo de energía durante el estado de reposo (reloj de la CPU y los periféricos de la mayoría) puede ser solo de nanowatts, lo que hace que muchos de ellos sean muy adecuados para aplicaciones con batería de larga duración. Otros microcontroladores pueden servir para roles de rendimiento crítico, donde sea necesario actuar más como un procesador digital de señal (DSP), con velocidades de reloj y consumo de energía más altos.</p>
+    <h3>Historia</h3>
+    <p>El primer microprocesador fue el Intel 4004 de 4 bits, lanzado en 1971, seguido por el Intel 8008 y otros más capaces. Sin embargo, ambos procesadores requieren circuitos adicionales para implementar un sistema de trabajo, elevando el costo del sistema total.</p>
+    <p>El Instituto Smithsoniano dice que los ingenieros de Texas Instruments Gary Boone y Michael Cochran lograron crear el primer microcontrolador, TMS 1000, en 1971; fue comercializado en 1974. Combina memoria ROM, memoria RAM, microprocesador y reloj en un chip y estaba destinada a los sistemas embebidos.2​</p>
+    <marquee ><h3>caracteristicas</h3></marquee>
+    <p>Los microcontroladores están diseñados para reducir el costo económico y el consumo de energía de un sistema en particular. Por eso el tamaño de la unidad central de procesamiento, la cantidad de memoria y los periféricos incluidos dependerán de la aplicación. El control de un electrodoméstico sencillo como una batidora utilizará un procesador muy pequeño (4 u 8 bits) porque sustituirá a un autómata finito. En cambio, un reproductor de música o vídeo digital (MP3 o MP4) requerirá de un procesador de 32 bits o de 64 bits y de uno o más códecs de señal digital (audio o vídeo). El control de un sistema de frenos ABS (Antilock Brake System) se basa normalmente en un microcontrolador de 16 bits, al igual que el sistema de control electrónico del motor en un automóvil.</p>
+    <p>Los microcontroladores representan la inmensa mayoría de los chips de computadoras vendidos, sobre un 50% son controladores "simples" y el restante corresponde a DSP más especializados. Mientras se pueden tener uno o dos microprocesadores de propósito general en casa (Ud. está usando uno para esto), usted tiene distribuidos seguramente entre los electrodomésticos de su hogar una o dos docenas de microcontroladores. Pueden encontrarse en casi cualquier dispositivo electrónico como automóviles, lavadoras, hornos microondas, teléfonos, etc.
+
+    </p>
+    <h3>¿Cuántos tipos de microcontroladores hay?</h3>
+    <p>Básicamente existen dos arquitecturas de computadoras, y por supuesto, están presentes en el mundo de los microcontroladores: Von Neumann y Harvard. Ambas se diferencian en la forma de conexión de la memoria al procesador y en los buses que cada una necesita.</p>
+    <li>Von Neumann</li>
+    <li>Harvard</li>
+    <h3>Arquitectura Von Neumann</h3>
+    <p>La arquitectura Von Neumann utiliza el mismo dispositivo de almacenamiento tanto para las instrucciones como para los datos, siendo la que se utiliza en un ordenador personal porque permite ahorrar una buena cantidad de líneas de E/S, que son bastante costosas, sobre todo para aquellos sistemas donde el procesador se monta en algún tipo de zócalo alojado en una placa madre. También esta organización les ahorra a los diseñadores de placas madre una buena cantidad de problemas y reduce el costo de este tipo de sistemas.</p>
+    <p>En un ordenador personal, cuando se carga un programa en memoria, a este se le asigna un espacio de direcciones de la memoria que se divide en segmentos, de los cuales típicamente tendremos los siguientes: código (programa), datos y pila. Es por ello que podemos hablar de la memoria como un todo, aunque existan distintos dispositivos físicos en el sistema (disco duro, memoria RAM, memoria flash, unidad de disco óptico…).</p>
+    <p>En el caso de los microcontroladores, existen dos tipos de memoria bien definidas: memoria de datos (típicamente algún tipo de SRAM) y memoria de programas (ROM, PROM, EEPROM, flash u de otro tipo no volátil). En este caso la organización es distinta a las del ordenador personal, porque hay circuitos distintos para cada memoria y normalmente no se utilizan los registros de segmentos, sino que la memoria está segregada y el acceso a cada tipo de memoria depende de las instrucciones del procesador.
+    </p>
+    <h3>Arquitectura Harvard</h3>
+    <p>La otra variante es la arquitectura Harvard, y por excelencia la utilizada en supercomputadoras, en los microcontroladores, y sistemas integrados en general. En este caso, además de la memoria, el procesador tiene los buses segregados, de modo que cada tipo de memoria tiene un bus de datos, uno de direcciones y uno de control.</p>
+    <p>La ventaja fundamental de esta arquitectura es que permite adecuar el tamaño de los buses a las características de cada tipo de memoria; además, el procesador puede acceder a cada una de ellas de forma simultánea, lo que se traduce en un aumento significativo de la velocidad de procesamiento. Típicamente los sistemas con esta arquitectura pueden ser dos veces más rápidos que sistemas similares con arquitectura Von Neumann.</p>
+    <p>La desventaja está en que consume muchas líneas de E/S del procesador; por lo que en sistemas donde el procesador está ubicado en su propio encapsulado, solo se utiliza en supercomputadoras. Sin embargo, en los microcontroladores y otros sistemas integrados, donde usualmente la memoria de datos y programas comparten el mismo encapsulado que el procesador, este inconveniente deja de ser un problema serio y es por ello que encontramos la arquitectura Harvard en la mayoría de los microcontroladores.</p>
+
+    
+
+
+
+
+<div>class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.48432607613!2d-74.78266712598074!3d10.926740256405242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cd620edd28ef%3A0x5bd9f8381b4b0dc0!2sPlaza%20del%20Sol%2C%20Cra.%2032%20%2330-15%2C%20Soledad%2C%20Atl%C3%A1ntico!5e0!3m2!1ses-419!2sco!4v1714156484009!5m2!1ses-419!2sco" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+<footer></footer>
+
+
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gVMyANSRBCE?si=rZaUcrc05Ie96uz_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+    
+</body>
+</html>
